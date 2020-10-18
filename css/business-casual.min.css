@@ -1,10 +1,5 @@
-/*!
- * Start Bootstrap - Business Casual v5.0.10 (https://startbootstrap.com/themes/business-casual)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
- */
 body {
-    font-family: Lora;
+    font-family: Raleway;
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -56,7 +51,7 @@ p {
     display: block;
     font-size: 1rem;
     font-weight: 800;
-    text-align: right;
+    text-align: left;
 }
 
 .section__heading .section__heading--lower {
@@ -75,7 +70,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-    color: #e6a756
+    color: #ffffff
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -251,4 +246,69 @@ p {
 
 .font-weight-light {
     font-weight: 100 !important
+}
+
+
+
+
+form{
+    width: 450px;
+    margin:auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.h2-contacto{
+    color: #fff;
+    text-align: center;
+    margin:0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.h2-contacto{
+    color: #fff;
+    text-align: center;
+    margin:0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border:none;
+    Font-family: Raleway;
+}
+
+textarea{
+    min-height: 160px;
+    max-height: 300px;
+    min-width: 100%;
+    Font-family: Raleway;
+
+}
+
+#boton{
+    background: #1d1e5e;
+    color: #FFF;
+    padding: 20px;
+    Font-family: Raleway;
+    font-weight: bold;
+}
+
+#boton:hover{
+    background: #1d1e5e;
+    color: #db9512;
+    padding: 20px;
+    Font-family: Raleway;
+    cursor: pointer;
+    font-weight: bold;
 }
